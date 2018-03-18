@@ -1,2 +1,3 @@
-# seven-segment-display-clock
-Resource for the "Scala as a first programming language - Part 14 - Seven Segment Display Clock" video
+# Seven Segment Display Clock
+
+[![Watch on YouTube](resources/thumbnail_youtube.gif)](https://youtu.be/XaQb9cfXA0g "Watch on YouTube")
