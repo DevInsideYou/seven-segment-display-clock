@@ -1,73 +1,73 @@
 object TwoDimensionalDigit {
   val Zero: TwoDimensionalString =
-    TwoDimensionalString(
-      top    = " _ ",
+    TwoDimensionalString( // format: off // format: off
+      top = " _ ",
       middle = "| |",
       bottom = "|_|"
-    )
+    ) // format: on // format: on
 
   val One: TwoDimensionalString =
-    TwoDimensionalString(
+    TwoDimensionalString( // format: off
       top    = "   ",
       middle = "  |",
       bottom = "  |"
-    )
+    ) // format: on
 
   val Two: TwoDimensionalString =
-    TwoDimensionalString(
+    TwoDimensionalString( // format: off
       top    = " _ ",
       middle = " _|",
       bottom = "|_ "
-    )
+    ) // format: on
 
   val Three: TwoDimensionalString =
-    TwoDimensionalString(
+    TwoDimensionalString( // format: off
       top    = " _ ",
       middle = " _|",
       bottom = " _|"
-    )
+    ) // format: on
 
   val Four: TwoDimensionalString =
-    TwoDimensionalString(
+    TwoDimensionalString( // format: off
       top    = "   ",
       middle = "|_|",
       bottom = "  |"
-    )
+    ) // format: on
 
   val Five: TwoDimensionalString =
-    TwoDimensionalString(
+    TwoDimensionalString( // format: off
       top    = " _ ",
       middle = "|_ ",
       bottom = " _|"
-    )
+    ) // format: on
 
   val Six: TwoDimensionalString =
-    TwoDimensionalString(
+    TwoDimensionalString( // format: off
       top    = " _ ",
       middle = "|_ ",
       bottom = "|_|"
-    )
+    ) // format: on
 
   val Seven: TwoDimensionalString =
-    TwoDimensionalString(
+    TwoDimensionalString( // format: off
       top    = " _ ",
       middle = "  |",
       bottom = "  |"
-    )
+    ) // format: on
 
   val Eight: TwoDimensionalString =
-    TwoDimensionalString(
+    TwoDimensionalString( // format: off
       top    = " _ ",
       middle = "|_|",
       bottom = "|_|"
-    )
+    ) // format: on
 
   val Nine: TwoDimensionalString =
-    TwoDimensionalString(
+    TwoDimensionalString( // format: off
       top    = " _ ",
       middle = "|_|",
       bottom = " _|"
-    )
+    ) // format: on
 
   def apply(digit: Int): TwoDimensionalString = digit match {
     case 0 => Zero
@@ -85,15 +85,15 @@ object TwoDimensionalDigit {
 
   // for educational purposes
   def apply2(digit: Int): TwoDimensionalString =
-         if(digit == 0) Zero
-    else if(digit == 1) One
-    else if(digit == 2) Two
-    else if(digit == 3) Three
-    else if(digit == 4) Four
-    else if(digit == 5) Five
-    else if(digit == 6) Six
-    else if(digit == 7) Seven
-    else if(digit == 8) Eight
-    else if(digit == 9) Nine
-    else                TwoDimensionalString.QuestionMarks
+    if (digit == 0) Zero
+    else if (digit == 1) One
+    else if (digit == 2) Two
+    else if (digit == 3) Three
+    else if (digit == 4) Four
+    else if (digit == 5) Five
+    else if (digit == 6) Six
+    else if (digit == 7) Seven
+    else if (digit == 8) Eight
+    else if (digit == 9) Nine
+    else TwoDimensionalString.QuestionMarks
 }

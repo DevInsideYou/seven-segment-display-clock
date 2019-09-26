@@ -1,2 +1,10 @@
+.bloop/
+.idea/
+.metals/
 *.class
 *.log
+boot/
+lib_managed/
+project/plugins/project/
+src_managed/
+target/
